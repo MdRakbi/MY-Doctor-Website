@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    padding-bottom: 23px;
+    position: fixed;
+    background-color: red ;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+header .photo{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+header .nav ul{
+    list-style: none;
+    margin-top: 22px;
+    margin-left: 220px;
+}
+header .nav ul li{
+    float: left;
+    padding: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+header .nav ul li a:hover{
+    color: white;
+}
+header .buttons{
+    margin-top: 19px;
+    margin-left: 160px;
+}
+header .buttons button{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: rgb(24, 119, 119);
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header .buttons button:hover{
+    background-color: white;
+    color: black;
+    border: solid 1px rgb(24, 119, 119);
+}
+.section1{
+    margin-left: 1px ;
+}
+.section1 .photo{
+    width: 60%;
+    height: 500px;
+}
+section{
+    width: 80%;
+    height: 650px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .hos{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: -180px;
+}
+section .hos1{
+    background-color: aquamarine;
+    padding: 35px;
+    border-radius: 5px;
+}
+section .hos1 p{
+    color: grey;
+}
+section .hos1 button{
+    color: rgb(203, 42, 85);
+    background-color: aquamarine;
+    border: solid 1px green;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+section .hos1 button:hover{
+    background-color: white;
+    padding: 5px;
+}
+section .hos2{
+    background-color: aquamarine;
+    padding: 35px;
+    border-radius: 5px;
+}
+section .hos2 p{
+    color: grey;
+}
+section .hos2 button{
+    color: rgb(203, 42, 85);
+    background-color: aquamarine;
+    border: solid 1px green;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+section .hos2 button:hover{
+    background-color: white;
+    padding: 5px;
+}
+section .hos3{
+    background-color: aquamarine;
+    padding: 35px;
+    border-radius: 5px;
+}
+section .hos3 p{
+    color: grey;
+}
+section .hos3 button{
+    color: rgb(203, 42, 85);
+    background-color: aquamarine;
+    border: solid 1px green;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+section .hos3 button:hover{
+    background-color: white;
+    padding: 5px;
+}
+.section2{
+    margin-top: -145px;
+}
+.section2 .hor{
+    margin-left: -30px;
+}
+.section2 .hor1{
+    margin-left: 90px;
+}
+.section2 .hor1 h3{
+    color: rgb(90, 89, 89);
+    font-size: 20px;
+}
+.section2 .hor1 h1{
+    color: rgb(26, 25, 25);
+    font-size: 40px;
+}
+.section2 .hor1 p{
+    color: rgb(149, 142, 142);
+    font-size: 16px;
+    word-spacing: 6px;
+}
+.section2 .hor1 li{
+    color: rgb(111, 107, 107);
+    font-size: 16px;
+    letter-spacing: 0.3px;
+}
+.section2 .hor1 button{
+    color: rgb(23, 94, 94);
+    background-color: white;
+    font-size: 22px;
+    border: solid 1px rgb(23, 94, 94);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.section2 .hor1 button:hover{
+    background-color: rgb(23, 94, 94) ;
+    color: white;
+}
+.section3 .hou h2{
+    margin-top: -200px;
+    font-size: 40px;
+}
+.section4 .hou1 img{
+    margin-bottom: 1150px;
+    margin-left: -22px;
+}
+.section5{
+    margin-top: -810px;
+}
+.section5 .hore{
+    background-color: rgb(142, 243, 157);
+    padding: 100px;
+}
+.section5 .hore h2{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.section5 .hore1{
+    background-color: rgb(155, 219, 219);
+    padding: 100px;
+}
+.section5 .hore1 h2{
+    color: white;
+    font-size: 20px;
+}
+.section5 .hore1 p{
+    color: white;
+    font-size: 15px;
+}
+.section5 .hore p{
+    color: white;
+    font-size: 14px;
+}
+.section5 .hore button{
+    color: rgb(23, 94, 94);
+    background-color: white;
+    font-size: 22px;
+    border: solid 1px rgb(23, 94, 94);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.section5 .hore button:hover{
+    background-color: rgb(23, 94, 94) ;
+    color: white;
+}
+.section5 .hore1 button{
+    color: rgb(23, 94, 94);
+    background-color: white;
+    font-size: 22px;
+    border: solid 1px rgb(23, 94, 94);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.section5 .hore1 button:hover{
+    background-color: rgb(23, 94, 94) ;
+    color: white;
+}
+footer{
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+}
+footer .foot{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #8393ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot1 i:hover{
+    color: #8393ff;
+}
